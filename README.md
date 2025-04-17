@@ -98,3 +98,98 @@ As a **Senior Data Engineer**, you should go beyond basic Pandas usage to cover 
 
 ---
 
+# 📦 Recommended Datasets for Practicing Pandas (Data Engineer Edition)
+
+---
+
+## 1. 🧼 Data Cleaning & Transformation
+
+### 🔹 Dataset:
+- [Housing Data (Ames)](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset)
+- [Titanic Dataset](https://www.kaggle.com/c/titanic/data)
+
+> **Skills:** handle missing values, type conversion, imputation, label encoding
+
+---
+
+## 2. 📊 Aggregations, Grouping, Pivot
+
+### 🔹 Dataset:
+- [Retail Sales](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- [Walmart Weekly Sales](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data)
+
+> **Skills:** `groupby()`, `pivot_table()`, time-based aggregations, window functions
+
+---
+
+## 3. 🔗 Joins, Merging & Normalized Data
+
+### 🔹 Dataset:
+- [Chinook Database](https://github.com/lerocha/chinook-database) (SQL format)
+- [Northwind Traders Dataset](https://github.com/jpwhite3/northwind-SQLite)
+
+> **Skills:** working with multiple tables, merging, normalization, relational joins in pandas
+
+---
+
+## 4. 🗂️ Multi-Index, Time Series & Hierarchical Data
+
+### 🔹 Dataset:
+- [Financial Stock Market Data (Yahoo Finance)](https://finance.yahoo.com/)
+- [NOAA Climate Data](https://www.ncei.noaa.gov/data/)
+
+> **Skills:** `MultiIndex`, `resample()`, `rolling()`, time slicing, `stack()/unstack()`
+
+---
+
+## 5. 🧪 Exploratory Data Analysis (EDA)
+
+### 🔹 Dataset:
+- [Netflix Movies and Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+- [World Happiness Report](https://www.kaggle.com/datasets/unsdsn/world-happiness)
+
+> **Skills:** EDA, feature engineering, anomaly detection, descriptive statistics
+
+---
+
+## 6. 🧾 File I/O (CSV, JSON, Parquet)
+
+### 🔹 Dataset:
+- [COVID-19 Time Series Data](https://github.com/CSSEGISandData/COVID-19)
+- Any Parquet sample from your Databricks FileStore or generated via Spark
+
+> **Skills:** `read_csv()`, `read_parquet()`, `to_parquet()`, compressed formats, chunking
+
+---
+
+## 7. 🛒 Large Datasets (Performance & Optimization)
+
+### 🔹 Dataset:
+- [NYC Taxi Trip Data](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)  
+- [Open Payments (CMS)](https://openpaymentsdata.cms.gov/)
+
+> **Skills:** memory optimization, `query()`, `eval()`, chunk processing
+
+---
+
+## 8. 🏥 Healthcare or Claims Data (Real-World Simulation)
+
+### 🔹 Dataset:
+- [MIMIC-III (Requires Access)](https://physionet.org/content/mimiciii/1.4/)
+- [CMS Medicare Data](https://data.cms.gov/provider-data/)
+
+> **Skills:** typical to your current domain — data normalization, concept mapping, missingness
+
+---
+
+## Bonus: 📁 Sample Datasets for Synthetic Practice
+
+- [faker library](https://faker.readthedocs.io/en/master/) to generate your own dummy data
+- [Mockaroo](https://mockaroo.com/) for creating custom datasets (CSV/JSON)
+
+---
+
+> ✅ **Tip:** Start with a small dataset to test transformations, then apply to bigger datasets to practice memory and performance optimization.
+
+
+
