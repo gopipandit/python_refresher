@@ -1,11 +1,21 @@
-from setuptools import *
-from functools import *
+class llms:
+
+    token_size = 100
+
+    def __init__(self,  query):
+        self.query = query
 
 
+    def openai(self):
+        print(f"I am openAI. you asked {self.query}")
 
-def get_reduced(*args):
-    return reduce(lambda x,y: x+y, args)
+    def claude(self):
+        print("I am claude")
+
+    def llama(self):
+        print("I am llama")
 
 
-if __name__ == '__main__':
-    print(get_reduced(12,3,4,5,6,7,4,6,90))
+if __name__ == "__main__":
+    l = llms(input("Enter a query: "))
+    l.openai()
